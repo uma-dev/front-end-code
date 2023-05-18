@@ -31,7 +31,8 @@
 <br />
 <div align="center">
   <a href="https://github.com/uma-dev/front-end-code">
-    <img src="" alt="Logo" width="80" height="80">
+    <img src="https://github.com/uma-dev/front-end-code/assets/22565959/e192a95d-f947-4fe6-a3d7-592a21ef506c" alt="Logo" width="150" height="100">
+
   </a>
 
   <h3 align="center">Front end code by class</h3>
