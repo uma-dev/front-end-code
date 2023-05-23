@@ -45,3 +45,7 @@ footer {
   text-align: center;
   color: white;
 }
+ footer i {
+  padding-top: 10px;
+  padding-left: 5px;
+ }
