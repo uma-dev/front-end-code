@@ -24,12 +24,12 @@ h3 {
 }
 
 ul {
-  list-style: none;
+  list-style: disc;
 }
 
 ul li {
   display: flex;
-  margin-bottom: 3px;
+  margin-bottom: 5px;
 }
 
 ul.anidada li {
@@ -37,7 +37,7 @@ ul.anidada li {
 }
 
 ul.datos__personales li {
-  margin-bottom: 3px;
+  margin-bottom: 7px;
 }
 
 footer {
