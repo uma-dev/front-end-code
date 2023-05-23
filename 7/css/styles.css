@@ -4,6 +4,10 @@ header {
   margin-bottom: 128px;
 }
 
+img {
+  width: 100px;
+}
+
 h1 {
   background-color: #c4c4c4;
   text-transform: uppercase;
