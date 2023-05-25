@@ -30,12 +30,13 @@ footer {
     position: absolute;
     width: 100%;
     bottom: 0;
+    font-size: 0.65em;
 }
 
 i {
     color: whitesmoke;
-    margin-top: 13px;
-    margin-left: 5px;
+    margin-top: 5px;
+    margin-left: 10px;
 }
 
 body div {
