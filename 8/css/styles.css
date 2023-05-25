@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,300;0,400;1,300&family=Montserrat:wght@300;400&family=Noto+Sans+KR:wght@400;500&family=Nunito+Sans:wght@200;400;600&family=Tsukimi+Rounded:wght@500;600&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.banner {
+    width: 100%;
+    height: 8em;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/001/632/448/small/dark-blue-stripes-geometric-overlapping-background-free-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+main {
+    text-align: center;
+}
+
+main img{
+    width: 10em;
+}
+
+footer {
+    background-color: rgb(16, 50, 109);
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+i {
+    color: whitesmoke;
+    margin-top: 13px;
+    margin-left: 5px;
+}
+
+body div {
+    margin: 15px;
+    text-align: center;
+}
+
+section {
+    margin: 20px;
+}
+
+article {
+    margin-bottom: 15px;
+}
+
+header a { 
+    color: whitesmoke;
+}
