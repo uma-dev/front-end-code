@@ -15,10 +15,16 @@
 
 main {
     text-align: center;
+    width: auto;
+    height:80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 main img{
     width: 10em;
+    border: 5px solid rgb(16, 50, 109);
 }
 
 footer {
