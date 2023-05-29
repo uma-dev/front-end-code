@@ -144,7 +144,9 @@
 .section__card {
   width: 85%;
   display: flex;
-  margin: 0 auto;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
   gap: 20px;
 }
 
@@ -258,7 +260,7 @@ footer .footer__links {
   background-color: #3c2313;
   color: white;
   display: flex;
-  padding: 20px 70px 20px;
+  padding: 10px 70px 10px;
 }
 
 footer .footer__links__list {
