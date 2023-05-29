@@ -78,7 +78,7 @@
   display: flex;
   flex-direction: column;
   align-items: end;
-  justify-content:center;
+  justify-content: center;
   gap: 10px;
 }
 
@@ -174,8 +174,132 @@
   color: #f0a83e;
 }
 
-.bx-envelope {
+.section__contact {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 40px;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0px 30px;
+}
+
+.section__contact h2 {
+  font-size: 25px;
+  color: #3c2313;
+  padding: 10px;
+}
+
+.section__contact input {
+  background-color: #3c2313;
+  color: white;
+  width: 30%;
+  font-size: 9px;
+  font-weight: 400;
+  padding: 15px 15px 15px;
+  border: none;
+  border-radius: 15px;
+}
+
+.section__contact button {
+  border-radius: 15px;
+  padding: 7px 22px;
+  font-size: 16px;
+  font-weight: 300;
+  color: white;
+  border: none;
+}
+
+.section__contact .button__yellow {
+  background-color: #f0a83e;
+}
+
+.section__contact .button__grey {
+  background-color: #8a8787;
+}
+
+footer .subscription {
+  background-color: #f0a83e;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 30px 5px;
+}
+
+footer .subscription button {
+  border-radius: 15px;
+  padding: 12px 12px;
+  font-weight: 400;
+  font-size: 9px;
+  background-color: #3c2313;
+  color: white;
+  border: none;
+}
+
+footer .subscription .div__subscription {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+footer .subscription input {
+  background-color: white;
   color: black;
+  width: 271px;
+  font-size: 9px;
+  font-weight: 400;
+  padding: 15px 15px 15px;
+  border: none;
+  border-radius: 15px;
+}
+
+footer .footer__links {
+  background-color: #3c2313;
+  color: white;
+  display: flex;
+  padding: 20px 70px 20px;
+}
+
+footer .footer__links__list {
+    width: 80%;
+}
+
+footer .footer__links__container{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 10px 0px 10px;
+}
+
+footer .footer__links__container h3 {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+footer .footer__links__container p {
+    font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 12px;
+    color: #8A8787;
+}
+
+footer .footer__links__container .links__data {
+    align-items: center;
+}
+
+footer .footer__rights {
+  background-color: #222222;
+  color: white;
+  font-weight: normal;
+  font-size: 10px;
+  padding: 4px;
+  text-align: center;
+}
+
+footer .the__logo .logo__span {
+    color: #f0a83e;
 }
 
 .logo {
