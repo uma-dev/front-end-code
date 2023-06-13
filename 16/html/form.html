@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Clase 16</title>
+  </head>
+  <body>
+    <header>
+      <div>20% de descuento en todos los productos!</div>
+      <h1>Nombre tienda</h1>
+      <div class="navbar">
+        <nav>
+          <ul>
+            <li>Contacto</li>
+            <li>Registrame</li>
+            <li>Ingresar</li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="form">
+        <div class="titulos">
+          <h2>Añadí tu super!</h2>
+          <p>Agregá tu personaje favorito completando las opciones.</p>
+        </div>
+
+        <div class="columnas">
+          <div class="inside__col">
+            <form action="#" method="POST">
+              <label for="nombre">Nombre *</label>
+              <input type="text" id="nombre" name="nombre" />
+
+              <label for="fecha">Fecha:</label>
+              <input type="date" id="fecha" name="fecha" required />
+
+              <textarea
+                id="descripcion"
+                name="descripcion"
+                rows="4"
+                cols="30"
+              ></textarea>
+            </form>
+          </div>
+          <div class="inside__col">
+            <form action="#" method="POST">
+              <label for="nombre">*Especie</label>
+              <select name="especie">
+                <option value="arana">Arana</option>
+              </select>
+
+              <label for="foto">Agregar foto:</label>
+              <input class="file" type="file" id="foto" name="foto" />
+
+                    <label class="poderes" for="poderes">Poderes:</label>
+                    <div>
+                      <input
+                        type="checkbox"
+                        id="volar"
+                        name="poder"
+                        value="volar"
+                      />
+                      <label for="volar">Volar</label>
+                    </div>
+                    <div>
+                      <input
+                        type="checkbox"
+                        id="superInteligencia"
+                        name="poder"
+                        value="superInteligencia"
+                      />
+                      <label for="superInteligencia">SuperInteligencia</label>
+                    </div>
+    
+                    <div>
+                      <input
+                        type="checkbox"
+                        id="vistaRayoLaser"
+                        name="poder"
+                        value="vistaRayoLaser"
+                      />
+                      <label for="vistaRayoLaser">Vista de rayo láser</label>
+                    </div>
+    
+                    <div>
+                      <input
+                        type="checkbox"
+                        id="billeteraGorda"
+                        name="poder"
+                        value="billeteraGorda"
+                      />
+                      <label for="billeteraGorda">Billetera gorda</label>
+                    </div>
+                    
+
+                    <hr>
+
+                    <label class="personaje" for="tipoPersonaje">Tipo de personaje:</label>
+    
+                    <div class="options">
+                      <input
+                        type="radio"
+                        id="heroe"
+                        name="tipoPersonaje"
+                        value="heroe"
+                      />
+                      <label for="heroe">Héroe/heroína</label>
+                    </div>
+    
+                    <div >
+                      <input
+                        type="radio"
+                        id="villano"
+                        name="tipoPersonaje"
+                        value="villano"
+                      />
+    
+                      <label for="villano">Villano/villana</label>
+                    </div>
+
+
+
+              
+
+            </form>
+          </div>
+        </div>
+        <div class="boton">
+          <button>Añadir</button>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer__text">
+        Todos los derechos reservados a FRONT END 1
+      </div>
+    </footer>
+  </body>
+</html>
