@@ -1,4 +1,3 @@
-# Clase 14
+# Clase 16
 
-![tablet](https://github.com/uma-dev/front-end-code/assets/22565959/c14176fd-901b-4b71-b764-0317906144ca)
-![mobile](https://github.com/uma-dev/front-end-code/assets/22565959/80ccfacb-d80f-42fd-aa4f-49e318953055)
+![mobile](https://github.com/uma-dev/front-end-code/assets/22565959/125d451c-c3e2-497d-90d9-d0b1b4df8036)
