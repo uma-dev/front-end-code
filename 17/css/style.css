@@ -161,7 +161,7 @@ button a {
 
 }
 
-button:hover, button a:hover, .buttom__mas:hover {
+button:hover, button a:hover, .button__mas:hover {
   background-color: black;
   color: gold;
 }
@@ -209,9 +209,9 @@ img {
   left: 20px;
 }
 
-.buttom__mas {
-  width:40px;
-  height: 40px;
+.button__mas {
+  width:70px;
+  height: 70px;
   background-color: #00669f;
   display: flex;
   justify-content: center;
@@ -219,11 +219,12 @@ img {
   border-radius: 100%;
   position: absolute;
   right: 1em;
-  top: 52em;
+  top: 50vh;
 }
 
-.buttom__mas i {
+.button__mas i {
   color: white;
+  font-size: 40px;
 }
 
 .card p, .card__hidden p {
