@@ -46,7 +46,7 @@ li {
   padding-right: 30px;
 }
 
-.navbar__menu i {
+.navbar__menu > i {
   display: none;
 }
 
@@ -74,6 +74,13 @@ li {
   font-weight: 100;
   font-size: 14px;
   text-decoration: none;
+}
+
+.navbar__links a::before{
+  font-family: "boxicons";
+  content: '\e913';
+  width: 50px;
+  height: 50px;
 }
 
 .section__hero {
@@ -333,7 +340,7 @@ footer .the__logo .logo__span {
   }
 
   .navbar__menu i {
-    display: contents;
+    display: block;
     color: white;
     font-size: larger;
   }
