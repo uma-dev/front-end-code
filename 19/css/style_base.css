@@ -52,11 +52,14 @@ nav ul li a:before{
     background: var(--decoration-color);
     position:absolute;
     bottom:-10px; 
-    /* alto y ancho=0 */
+    width: 0px;
+    height: 2px;
     /* transition: ; */
+    transition: all 500ms;
 }
 nav ul li a:hover::before{
     /* ancho final */
+    width: 100%;
 }
 
 /* Barra redes */
@@ -77,6 +80,7 @@ nav ul li a:hover::before{
     padding: 10px 15px;
     text-decoration: none;
     /* transition: ; */
+    transition: all 500ms;
 }
 
 .social ul li .icon-facebook {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
@@ -87,7 +91,9 @@ nav ul li a:hover::before{
 
 .social ul li a:hover{
     /* transform: ; */
+    background-color: black;
     /* padding: ; */
+    padding: 10px 30px;
 }
 
 
@@ -130,7 +136,17 @@ nav ul li a:hover::before{
     border-bottom: 10px solid rgb(202, 66, 129);
     border-left: 10px solid rgba(66,139,202,.2);
      /* animation: ; */
+    animation: spin 500ms infinite linear;
  }
+
 /* keyframes
     crear la animación con la rotación desde el momento 0 y momento 100
  */
+ @keyframes spin {
+    0% {
+        transform:rotate(0deg);
+    }
+    100% {
+        transform:rotate(360deg);
+    }
+ }
