@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  background-color: white;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+  gap: 1em;
+  background-color: #e6e6e6;
+}
+header h1 {
+  text-transform: uppercase;
+  color: #005677;
+  letter-spacing: 0.4rem;
+  font-weight: 100;
+}
+header img {
+  width: 10vw;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  width: 80vw;
+  margin: auto;
+}
+main section h3 {
+  background-color: #c4c4c4;
+  text-transform: uppercase;
+  color: #005677;
+  padding: 1em;
+  letter-spacing: 0.2rem;
+  font-weight: 100;
+}
+main section ul {
+  padding: 1em 3em;
+}
+main section ul.datos {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+main section ul.fechas {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+}
+main section ul.fechas li {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1em;
+}
+main section ul.fechas li ul.anidada {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6em;
+  padding: 0;
+  list-style: none;
+}
+
+footer {
+  background-color: #005677;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+  padding: 2em;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
